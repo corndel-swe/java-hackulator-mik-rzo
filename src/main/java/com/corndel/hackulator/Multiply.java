@@ -9,7 +9,6 @@ public class Multiply {
    * <p>multiply(2, 3) => 6
    */
   static long multiply(long x, long y) {
-    var result = X * y;
-    return result;
+    return x * y;
   }
 }
