@@ -15,6 +15,16 @@ public class MaxOfThree {
       return z;
     }
 
-    throw new Error("Is this reachable?");
+    if (x == y && x == z) {
+      return x;
+    }
+
+    if (x == y && x > z) {
+      return x;
+    } else if (x == z && x > y) {
+      return x;
+    } else {
+      return y;
+    }
   }
 }
