@@ -10,8 +10,9 @@ public class Gcd {
    */
   static int gcd(int a, int b) {
     while (a != 0) {
-      var temp = a;
-      a = b % a;
+      var temp = b;
+      b = a;
+      a = temp % a;
     }
     return b;
   }
