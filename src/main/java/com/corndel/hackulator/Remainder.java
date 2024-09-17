@@ -7,7 +7,6 @@ public class Remainder {
    * <p>remainder(10, 3) => 1
    */
   static int remainder(int x, int y) {
-    var a = x / y;
-    return 0;
+    return x % y;
   }
 }
