@@ -15,12 +15,8 @@ public class Subtract {
   static int subtract(int x, int y) {
     if (x < y) {
       return y - x;
-    }
-
-    if (y < x) {
+    } else {
       return x - y;
     }
-
-    throw new Error("Is this reachable?");
   }
 }

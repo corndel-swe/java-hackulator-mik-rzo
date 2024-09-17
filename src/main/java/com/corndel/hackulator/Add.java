@@ -7,7 +7,6 @@ public class Add {
    * <p>add(1, 2) => 3
    */
   public static int add(int x, int y) {
-    var result = x + y;
-    return 0;
+    return x + y;
   }
 }
